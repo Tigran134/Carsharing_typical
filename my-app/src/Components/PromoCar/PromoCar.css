@@ -1,0 +1,19 @@
+
+
+.Promocods{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.PromoCar {
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  height: 120px;
+}
