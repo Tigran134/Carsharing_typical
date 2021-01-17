@@ -1,17 +1,16 @@
-
-
 .Promocods{
   margin-top: 30px;
   display: flex;
+
   justify-content: center;
   max-width: 100%;
-  text-align: center;
- 
-
+  /* text-align: center; */
 }
 
 .PromoCar {
-/* flex: 0 1 15.333%; */
+  /* max-width: 1200px; */
+
+/* flex: 0 1 33.333%; */
   border: 3px solid #fff;
   color: #fff;
   padding: 40px;

@@ -1,0 +1,16 @@
+
+    .section0_1 {
+      height: 50px;
+      background-color: #2E3983; 
+    }
+    
+    .flex_01{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .section0_1 a {
+    font-size: 20px;
+    font-weight: bold;
+    }

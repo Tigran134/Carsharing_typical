@@ -1,0 +1,18 @@
+.container_2 {
+  height: inherit;
+  width: 1200px;
+  /* background: #bbbbbb; */
+  margin: auto;
+}
+
+.grid_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* background: rgb(231, 226, 226); */
+ grid-gap: 33px;
+}
+
+.section_2 {
+  padding-top: 50px;
+}
+
