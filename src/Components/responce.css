@@ -1,0 +1,57 @@
+
+    @media screen and (max-width: 1199px)
+    {
+      .grid_card {
+        grid-template-columns: repeat(3, 1fr) !important;
+      }
+    }
+
+    @media screen and (max-width: 1023px)
+    {
+      .grid_card {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 6px !important;
+      }
+     
+    }
+
+
+    @media screen and (max-width: 767px)
+    {
+
+      .flex_01{
+        text-align: center;
+      }
+      
+    }
+
+
+    @media screen and (max-width: 567px)
+    {
+      .grid_card {
+        grid-template-columns:  1fr !important;
+        /* grid-gap: 6px !important; */
+      }
+
+      .logo_h2 {
+    display: none;
+      }
+.promo_cars h2 {
+  text-align: center;
+}
+
+header {
+  height: 60px;
+}
+
+.section0_1 {
+  height: 100px !important;
+}
+.section1_1 h1{ 
+  font-size: 22px !important;
+}
+
+
+     
+     
+    }

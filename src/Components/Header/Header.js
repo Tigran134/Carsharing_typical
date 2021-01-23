@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './Header.css'
+import logo from '../../logocompany/IMG_5359.PNG'
+import '../responce.css'
 
 
 export default class Header extends Component {
@@ -11,26 +13,28 @@ render() {
     return (
     
 
-<header>
-      <div class="container">
-        <div class="head">
+<header className='header'>
+  <div className='header'> 
+      <div className="container">
+        <div className="head">
 
-          <div class="logo">
-            <img src="./IMG_5359.PNG" aclass="logo" />
-            <h2>Типичный Каршеринг</h2>
+          <div className="logo">
+            <img src={logo} className="logo" />
+            <h2 className='logo_h2' >Типичный Каршеринг</h2>
           </div>
 
-          <div>
+          <div className='promo_cars' >
             <h2> Промокоды Каршеринг </h2>
 
           </div>
 
-          <div class="contacts">
-            <a class="vk" href="https://vk.com/typical_carsharing"></a>
-            <a class="tg" href="https://teleg.run/typical_carsharing"></a>
+          <div className="contacts">
+            <a className="vk" href="https://vk.com/typical_carsharing"></a>
+            <a className="tg" href="https://teleg.run/typical_carsharing"></a>
           </div>
 
         </div>
+      </div>
       </div>
     </header>
     )

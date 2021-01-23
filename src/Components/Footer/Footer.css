@@ -1,25 +1,36 @@
-
 footer {
   width: 100%;
   margin-top: 20px;
   text-align: center;
-background-color: rgb(45, 62, 80);;
+background-color: rgb(45, 62, 80);
   height: 100px;
+  box-sizing: border-box;
 }
 
-.container_footer {
+.container{
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .flex_footer{
   margin-top: 20px;
   display: flex;
-  justify-content: center;
-
+  justify-content: space-around;
 }
 
 .flex_footer a {
-  margin-top: 20px;
-  margin-left: 200px;
+  margin-top: 15px;
+  padding: 10px;
 }
+
+.flex_footer a:hover {
+ background: orange;
+}
+
+footer span {
+  font-size: 15px;
+  display: block;
+  margin-top: 10px;
+}
+
